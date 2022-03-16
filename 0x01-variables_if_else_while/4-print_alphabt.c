@@ -4,16 +4,16 @@
  *
  * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
 	char alphabet;
 
-	for(alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
-	if(alphabet == 'e')
+	if (alphabet == 'e')
 	continue;
 
-	else if(alphabet == 'q')
+	else if (alphabet == 'q')
 	continue;
 
 	putchar(alphabet);
