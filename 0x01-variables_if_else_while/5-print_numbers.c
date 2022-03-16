@@ -2,25 +2,19 @@
 /**
  * main - Entry point
  *
- * Return always 0 (success)
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	char alphabet;
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	int digit;
+
+	for (digit = 0; digit < 10; digit++)
 	{
-	if (alphabet == 'q')
-	continue;
-
-	else if (alphabet == 'e')
-	continue;
-
-	putchar(alphabet);
+	printf("%d", digit);
 	}
 
-	putchar('\n')
+	printf("\n");
 
-	return (0)
+	return (0);
 
 }
