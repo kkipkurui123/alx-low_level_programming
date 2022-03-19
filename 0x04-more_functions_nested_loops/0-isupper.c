@@ -1,17 +1,17 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * isupper - evaluate if letter is uppercase .
+ *@c: print int
+ * Return: Always 0.
  */
-int _isupper(int c);
+int _isupper(int c)
 {
-	if ((c = 'C'))
-	{a
+	if (c >= 'A' && c <= 'Z')
+	{
 	return (1);
 	}
 
-	else (c = 'c');
+	else
 	{
 	return (0);
 	}
