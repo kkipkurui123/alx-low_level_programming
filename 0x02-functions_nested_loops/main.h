@@ -9,5 +9,5 @@ void jack_bauer(void);
 void times_table(void);
 int add(int, int);
 void print_to_89(int n);
-int _putchar(int);
+int _putchar(char c);
 
